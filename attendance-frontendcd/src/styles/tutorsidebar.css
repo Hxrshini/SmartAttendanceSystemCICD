@@ -1,0 +1,27 @@
+/* Layout */
+.layout{
+display:flex;
+min-height:100vh;
+}
+
+/* Sidebar */
+.sidebar{
+position:fixed;
+top:0;
+left:0;
+width:250px;
+height:100vh;
+background:#0f172a;
+color:white;
+padding:25px 20px;
+display:flex;
+flex-direction:column;
+gap:18px;
+}
+
+/* Content area */
+.content{
+margin-left:250px;
+padding:40px;
+width:100%;
+}

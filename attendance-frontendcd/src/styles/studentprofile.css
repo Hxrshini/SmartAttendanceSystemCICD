@@ -1,0 +1,91 @@
+/* PROFILE CARD */
+
+.dashboard-card{
+background:white;
+padding:30px;
+border-radius:14px;
+box-shadow:0 10px 30px rgba(0,0,0,0.25);
+width:600px;
+max-width:90%;
+margin-top:40px;
+}
+
+/* TITLE */
+
+.dashboard-card h2{
+text-align:center;
+margin-bottom:25px;
+color:#1f2937;
+}
+
+/* PROFILE LAYOUT */
+
+.profile-container{
+display:flex;
+align-items:center;
+gap:30px;
+margin-bottom:25px;
+}
+
+/* PROFILE IMAGE */
+
+.profile-container img{
+width:140px;
+height:140px;
+object-fit:cover;
+border-radius:12px;
+box-shadow:0 6px 18px rgba(0,0,0,0.2);
+}
+
+/* PROFILE DETAILS */
+
+.profile-container{
+display:flex;
+align-items:flex-start;
+gap:40px;
+margin-bottom:25px;
+}
+/* PROFILE PHOTO SECTION */
+
+.dashboard-card h3{
+margin-top:20px;
+margin-bottom:10px;
+color:#374151;
+}
+.profile-details{
+display:flex;
+flex-direction:column;
+gap:8px;
+font-size:15px;
+color:#1f2937;
+}
+
+/* FILE INPUT */
+
+.dashboard-card input[type="file"]{
+margin-top:10px;
+margin-bottom:10px;
+}
+
+/* BUTTONS */
+
+.dashboard-card button{
+padding:10px 18px;
+border:none;
+border-radius:8px;
+background:#2563eb;
+color:white;
+font-weight:600;
+cursor:pointer;
+transition:0.2s;
+}
+
+.dashboard-card button:hover{
+background:#1d4ed8;
+}
+
+/* INFO TEXT */
+
+.dashboard-card p{
+color:#1f2937;
+}

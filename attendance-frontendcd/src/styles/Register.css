@@ -1,0 +1,124 @@
+/* Page Background */
+body{
+  margin:0;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: linear-gradient(135deg,#0f1f45,#243c7a);
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* Card Container */
+.card{
+  width:360px;
+  padding:30px;
+  background:white;
+  border-radius:14px;
+  box-shadow:0 15px 35px rgba(0,0,0,0.25);
+  text-align:center;
+}
+
+/* Title */
+.card h2{
+  margin-bottom:20px;
+  color:#1f2937;
+  font-weight:600;
+}
+
+/* Role Tabs Container */
+.role-tabs{
+  display:flex;
+  gap:8px;
+  margin-bottom:15px;
+}
+
+/* Role Buttons */
+.role-tabs button{
+  flex:1;
+  padding:10px;
+  border-radius:8px;
+  border:1px solid #e5e7eb;
+  background:#f3f4f6;
+  color:#374151;
+  font-size:13px;
+  font-weight:500;
+  cursor:pointer;
+  transition:all 0.2s ease;
+}
+
+/* Hover */
+.role-tabs button:hover{
+  background:#e5e7eb;
+}
+
+/* Active Role */
+.role-tabs button.active{
+  background:#2563eb;
+  color:white;
+  border-color:#2563eb;
+}
+/* Inputs */
+.card input{
+  width:100%;
+  padding:10px 12px;
+  margin:7px 0;
+  border-radius:8px;
+  border:1px solid #e5e7eb;
+  font-size:14px;
+  background:#fafafa;
+  transition:0.2s;
+}
+
+/* Input Focus */
+.card input:focus{
+  outline:none;
+  border-color:#2563eb;
+  background:white;
+  box-shadow:0 0 0 2px rgba(37,99,235,0.15);
+}
+
+/* Role Specific Fields */
+.student-fields,
+.faculty-fields,
+.hod-fields{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+
+/* Register Button */
+.register-btn{
+  width:100%;
+  margin-top:12px;
+  padding:11px;
+  border:none;
+  border-radius:8px;
+  background:#2563eb;
+  color:white;
+  font-weight:600;
+  font-size:14px;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.register-btn:hover{
+  background:#1d4ed8;
+}
+
+/* Button Hover */
+.card button:last-of-type:hover{
+  background:#1d4ed8;
+}
+
+/* Login Link */
+.switch-link{
+  margin-top:14px;
+  font-size:13px;
+  color:#6b7280;
+  cursor:pointer;
+}
+
+.switch-link:hover{
+  color:#2563eb;
+}
